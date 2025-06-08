@@ -7,13 +7,13 @@
         "$className": "Folder",
         "Services": {
           "$className": "Folder",
-          "ExampleTestService": {
+          "ExampleService": {
             "$className": "Folder",
-            "ExampleTestServiceClient": {
-              "$path": "src/services/ExampleTestService/Client.luau"
+            "ExampleServiceClient": {
+              "$path": "src/services/ExampleService/Client.luau"
             },
-            "ExampleTestServiceUtils": {
-              "$path": "src/services/ExampleTestService/Utils.luau"
+            "ExampleServiceUtils": {
+              "$path": "src/services/ExampleService/Utils.luau"
             }
           }
         },
@@ -27,9 +27,6 @@
       "Packages": {
         "$path": "Packages"
       },
-      "CustomPackages": {
-        "$path": "CustomPackages"
-      },
       "UI": {
         "$path": "src/ui"
       }
@@ -40,10 +37,10 @@
       },
       "Services": {
         "$className": "Folder",
-        "ExampleTestService": {
+        "ExampleService": {
           "$className": "Folder",
-          "ExampleTestServiceServer": {
-            "$path": "src/services/ExampleTestService/Server.luau"
+          "ExampleServiceServer": {
+            "$path": "src/services/ExampleService/Server.luau"
           }
         }
       },

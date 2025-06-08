@@ -1,0 +1,65 @@
+{
+  "name": "genrojotree",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Shared": {
+        "$className": "Folder",
+        "Services": {
+          "$className": "Folder",
+          "ExampleTestService": {
+            "$className": "Folder",
+            "ExampleTestServiceClient": {
+              "$path": "src/services/ExampleTestService/Client.luau"
+            },
+            "ExampleTestServiceUtils": {
+              "$path": "src/services/ExampleTestService/Utils.luau"
+            }
+          }
+        },
+        "Classes": {
+          "$className": "Folder"
+        },
+        "Modules": {
+          "$className": "Folder"
+        }
+      },
+      "Packages": {
+        "$path": "Packages"
+      },
+      "CustomPackages": {
+        "$path": "CustomPackages"
+      },
+      "UI": {
+        "$path": "src/ui"
+      }
+    },
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/startup/Server.server.luau"
+      },
+      "Services": {
+        "$className": "Folder",
+        "ExampleTestService": {
+          "$className": "Folder",
+          "ExampleTestServiceServer": {
+            "$path": "src/services/ExampleTestService/Server.luau"
+          }
+        }
+      },
+      "Classes": {
+        "$className": "Folder"
+      },
+      "Modules": {
+        "$className": "Folder"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/startup/Client.client.luau"
+        }
+      }
+    }
+  }
+}

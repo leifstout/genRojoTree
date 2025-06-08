@@ -1,0 +1,10 @@
+{
+	"stylua.targetReleaseVersion": "latest",
+	 "workbench.editor.customLabels.patterns": {
+        "**/init.lua": "${dirname} (${filename}.${extname})",
+        "**/init.luau": "${dirname} (${filename}.${extname})",
+		"**/Client.luau": "${dirname}${filename}.${extname}",
+		"**/Server.luau": "${dirname}${filename}.${extname}",
+		"**/Utils.luau": "${dirname}${filename}.${extname}",
+    },
+}

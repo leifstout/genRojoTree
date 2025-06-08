@@ -1,0 +1,3 @@
+local ExampleServiceClient = {}
+
+return ExampleServiceClient

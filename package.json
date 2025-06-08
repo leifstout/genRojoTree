@@ -1,0 +1,18 @@
+{
+  "name": "genrojotree",
+  "version": "1.0.0",
+  "main": "index.js",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:rojo": "node tools/genRojoTree.js",
+    "watch:rojo": "chokidar \"src/**/*\" -c \"npm run build:rojo\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0"
+  }
+}

@@ -23,7 +23,7 @@ function getVirtualPath(filepath) {
   const relativePath = path.relative(BASE_PATH, filepath);
   const parts = relativePath.split(path.sep);
   const filename = path.basename(filepath, ".luau");
-  const isServer = filename.toLowerCase() === "server";
+  const isServer = filename.toLowerCase().includes("server");
 
   const folderName = parts.length > 1 ? toPascalCase(parts[parts.length - 2]) : "";
   let name;
